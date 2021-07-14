@@ -1,0 +1,176 @@
+@charset "UTF-8"
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #21243d;
+  font-family: "Heebo";
+  max-width: 100%;
+}
+
+header input {
+  display: none;
+}
+
+.header-list ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 60px;
+}
+
+.header-list li {
+  margin: 27px 26px;
+  list-style: none;
+  font-size: 20px;
+  line-height: 29.38px;
+  color: #142850;
+}
+
+.lead-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead img {
+  width: 243px;
+  height: 243px;
+  margin-left: 101px;
+}
+
+.lead h1 {
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.lead p {
+  font-size: 16px;
+  line-height: 23.5px;
+  margin-bottom: 38px;
+}
+
+.btn {
+  font-size: 20px;
+  padding: 9px 20px;
+  color: #fff;
+  background-color: #ff6464;
+  display: inline-flex;
+}
+
+.catch-wrapper {
+  background-color: rgba(237, 247, 250, 1);
+  margin-top: 71px;
+}
+
+.catch-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 855px;
+  margin: auto;
+}
+
+.catch-heading h2 {
+  font-size: 22px;
+}
+
+.catch-heading p {
+  font-size: 16px;
+  color: rgba(0, 168, 204, 1);
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 855px;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+.item-text {
+  padding: 7px 23px;
+  background-color: #fff;
+}
+
+.item-text h2 {
+  font-size: 26px;
+  line-height: 38.19px;
+}
+
+.post p {
+  font-size: 18px;
+  line-height: 26.44px;
+}
+
+.post span {
+  margin: 0 16px;
+}
+
+.item-text p {
+  font-size: 16px;
+  line-height: 23.5px;
+}
+
+.works-wrapper {
+  max-width: 856px;
+  margin: auto;
+}
+
+.works-heading h3 {
+  font-size: 22px;
+  line-height: 60px;
+  display: flex;
+}
+
+.work {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.work-text {
+  margin-left: 18px;
+  padding-bottom: 2px;
+  justify-content: space-between;
+}
+
+.work-text h3 {
+  font-size: 30px;
+  font-weight: 44px;
+}
+
+.work-text p {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.work-title span {
+  color: #fff;
+  background-color: #142850;
+  font-size: 18px;
+  font-weight: 60px;
+  padding: 0 10px;
+  border-radius: 31px;
+  margin-right: 26px;
+}
+
+.work-title {
+  color: rgba(134, 149, 164, 1);
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 51px;
+  margin-bottom: 54px;
+}
+
+footer img {
+  padding: 0 17.5px;
+}

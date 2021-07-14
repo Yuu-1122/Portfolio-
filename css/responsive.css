@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+@media (max-width: 670px) {
+  header {
+    margin: 0 10px;
+    position: fixed;
+  }
+
+  #gnav-content {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 100;
+    width: 100%;
+    max-width: 240px;
+    box-shadow: 6px 0 25px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+  }
+  ul.gnav-list {
+    background: white;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+  }
+  ul.gnav-list li {
+    display: block;
+  }
+
+  ul.gnav-list li a {
+    display: block;
+    padding: 1.5em;
+    color: rgba(33, 36, 61, 1);
+    font-size: 12px;
+    text-decoration: none;
+  }
+  ul.gnav-list li a::first-line {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .gnav-hidden {
+    display: none;
+  }
+
+  #gnav-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    background: url("../img/ハンバーガーボタン.png") center center
+      no-repeat;
+  }
+
+  #gnav-black {
+    display: none;
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+  }
+
+  #gnav-input:checked ~ #gnav-btn {
+    background: url("../img/ハンバーガーボタン2.png") center center
+      no-repeat;
+  }
+  #gnav-input:checked ~ #gnav-black {
+    display: block;
+  }
+  #gnav-input:checked ~ #gnav-content {
+    left: 0;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .lead img {
+    margin: 0 auto;
+    padding-top: 83px;
+    width: 171px;
+    height: 171px;
+  }
+
+  .header-list ul {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+  }
+
+  .items {
+    display: block;
+    padding-bottom: 38px;
+  }
+
+  .lead-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 40px;
+  }
+
+  .lead-text {
+    order: 2;
+  }
+
+  .lead-text h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .lead-text p {
+    font-size: 16px;
+    line-height: 23.5px;
+  }
+
+  .lead-text p br {
+    display: none;
+  }
+
+  .lead-text-wrapper img {
+    order: 1;
+  }
+
+  .catch-wrapper {
+    padding-bottom: 38px;
+  }
+
+  .catch-heading h2 {
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .items {
+    max-width: initial;
+    padding-bottom: 38px;
+  }
+
+  .item-text h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .item-text p {
+    font-size: 16px;
+    line-height: 23.5px;
+  }
+
+  .item-text {
+    margin: 12px 10px;
+    display: block;
+  }
+
+  .item-text br {
+    display: none;
+  }
+
+  .works-wrapper {
+    padding-top: 3px;
+  }
+
+  .work {
+    display: block;
+    margin: 0 18px;
+  }
+
+  .works-heading h3 {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    line-height: 60px;
+    padding-top: 17px;
+  }
+
+  .works img {
+    padding-top: 17px;
+    border-radius: 6px;
+    width: 339px;
+    height: 230px;
+  }
+
+  .work-title {
+    font-size: 16px;
+  }
+
+  .work-text {
+    margin: 0 18px;
+  }
+
+  .work-text h3 {
+    font-size: 22px;
+  }
+
+  .work-text br {
+    display: none;
+  }
+
+  footer {
+    margin-top: 150px;
+  }
+}
