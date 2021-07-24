@@ -84,7 +84,6 @@
     margin: 0 auto;
     padding-top: 83px;
     width: 171px;
-    height: 171px;
   }
 
   .header-list ul {
@@ -102,7 +101,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0 40px;
+    margin: 0 33px;
   }
 
   .lead-text {
@@ -111,12 +110,13 @@
 
   .lead-text h1 {
     font-size: 32px;
-    line-height: 40px;
+    line-height: 1.25;
+    font-weight: bold;
   }
 
   .lead-text p {
     font-size: 16px;
-    line-height: 23.5px;
+    line-height: 1.46;
   }
 
   .lead-text p br {
@@ -131,10 +131,19 @@
     padding-bottom: 38px;
   }
 
+  .catch-heading {
+    display: block;
+  }
+
   .catch-heading h2 {
     font-size: 18px;
-    line-height: 60px;
+    line-height: 3.33;
     text-align: center;
+    padding-top: 12px;
+  }
+
+  .catch-heading p {
+    display: none;
   }
 
   .items {
@@ -144,17 +153,18 @@
 
   .item-text h2 {
     font-size: 22px;
-    line-height: 30px;
+    line-height: 1.36;
   }
 
   .item-text p {
     font-size: 16px;
-    line-height: 23.5px;
+    line-height: 1.46;
   }
 
   .item-text {
     margin: 12px 10px;
     display: block;
+    width: auto;
   }
 
   .item-text br {
@@ -168,6 +178,7 @@
   .work {
     display: block;
     margin: 0 18px;
+    padding: 0;
   }
 
   .works-heading h3 {
@@ -175,7 +186,7 @@
     text-align: center;
     margin: 0;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 3.33;
     padding-top: 17px;
   }
 
@@ -184,6 +195,7 @@
     border-radius: 6px;
     width: 339px;
     height: 230px;
+    margin: 0 auto;
   }
 
   .work-title {
@@ -191,11 +203,12 @@
   }
 
   .work-text {
-    margin: 0 18px;
+    margin: 0;
   }
 
   .work-text h3 {
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 1.25;
   }
 
   .work-text br {

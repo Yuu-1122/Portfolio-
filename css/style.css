@@ -26,7 +26,7 @@ header input {
   margin: 27px 26px;
   list-style: none;
   font-size: 20px;
-  line-height: 29.38px;
+  line-height: 1.45;
   color: #142850;
 }
 
@@ -37,19 +37,17 @@ header input {
 }
 
 .lead img {
-  width: 243px;
-  height: 243px;
   margin-left: 101px;
 }
 
 .lead h1 {
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 }
 
 .lead p {
   font-size: 16px;
-  line-height: 23.5px;
+  line-height: 1.46;
   margin-bottom: 38px;
 }
 
@@ -76,17 +74,20 @@ header input {
 
 .catch-heading h2 {
   font-size: 22px;
+  line-height: 2.7;
+  margin: 0;
 }
 
 .catch-heading p {
   font-size: 16px;
   color: rgba(0, 168, 204, 1);
+  margin: 0;
 }
 
 .items {
   display: flex;
   justify-content: space-between;
-  max-width: 855px;
+  max-width: 845px;
   margin: auto;
   padding-bottom: 32px;
 }
@@ -94,25 +95,30 @@ header input {
 .item-text {
   padding: 7px 23px;
   background-color: #fff;
+  width: 50%;
 }
 
 .item-text h2 {
   font-size: 26px;
-  line-height: 38.19px;
+  line-height: 1.46;
 }
 
 .post p {
   font-size: 18px;
-  line-height: 26.44px;
+  line-height: 1.44;
 }
 
 .post span {
-  margin: 0 16px;
+  margin: 0 17px;
 }
 
 .item-text p {
   font-size: 16px;
-  line-height: 23.5px;
+  line-height: 1.43;
+}
+
+.left {
+  margin-right: 20px;
 }
 
 .works-wrapper {
@@ -122,39 +128,40 @@ header input {
 
 .works-heading h3 {
   font-size: 22px;
-  line-height: 60px;
+  line-height: 2.72px;
+  padding-top: 18px;
   display: flex;
 }
 
 .work {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-content: space-between;
   margin: auto;
   border-bottom: 1px solid #e0e0e0;
+  padding: 30px 0;
 }
 
 .work-text {
   margin-left: 18px;
-  padding-bottom: 2px;
   justify-content: space-between;
 }
 
 .work-text h3 {
   font-size: 30px;
-  font-weight: 44px;
+  line-height: 1.46;
+  margin: 0;
 }
 
 .work-text p {
   font-size: 16px;
-  line-height: 23px;
+  line-height: 1.46;
 }
 
 .work-title span {
   color: #fff;
   background-color: #142850;
   font-size: 18px;
-  font-weight: 60px;
   padding: 0 10px;
   border-radius: 31px;
   margin-right: 26px;
